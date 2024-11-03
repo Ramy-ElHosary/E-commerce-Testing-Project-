@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="E-commerce Test Suite">
+    <test name="Functional Tests">
+        <classes>
+            <class name="test.java.com.example.ecommerce.tests.LoginTest"/>
+            <class name="test.java.com.example.ecommerce.tests.RegistrationTest"/>
+            <class name="test.java.com.example.ecommerce.tests.ForgotPasswordTest"/>
+            <class name="test.java.com.example.ecommerce.tests.CurrencySwitchingTest"/>
+            <class name="test.java.com.example.ecommerce.tests.ProductSearchTest"/>
+        </classes>
+    </test>
+</suite>
